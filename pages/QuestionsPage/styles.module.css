@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    padding: 30px 10px;
+    flex: 0.75;
+    flex-direction: column;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.maintop {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.maintop h2 {
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+}
+
+.button {
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.659);
+}
+.maindesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 11px;
+    color: black;
+    justify-content: space-between;
+    padding: 0 0 10px 0px;
+    margin-top: 10px;
+}
+.mainfilter {
+    display: flex;
+    align-items: center;
+}
+.maintabs {
+    display: flex;
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.maintab {
+    padding: 5px;
+}
+.mainfilteritem {
+display: flex;
+padding: 5px;
+border: 1px solid blue;
+border-radius: 3px;
+background-color: rgb(255, 255, 255);
+font-size: small;
+align-items: center;
+color: blue;
+cursor: pointer;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
