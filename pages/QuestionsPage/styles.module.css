@@ -76,3 +76,9 @@ cursor: pointer;
     border-bottom: 1px solid #eee;
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .main {
+        flex-direction: 0.6;
+    }
+}

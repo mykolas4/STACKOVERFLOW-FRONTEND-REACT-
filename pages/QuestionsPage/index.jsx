@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "@/pages/QuestionsPage/styles.module.css";
 import Link from "next/link"
+import AllQuestions from "@/components/SideBar/AllQuestions/AllQuestions";
 const Main = () => {
   return (
     <div className={styles.main}>
@@ -20,6 +21,7 @@ const Main = () => {
               </div>
               <div className={styles.questions}>
                 <div className={styles.question}></div>
+                <AllQuestions />
               </div>
             </div>
           </div>

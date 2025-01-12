@@ -1,0 +1,28 @@
+.allquestions {
+  display: flex;
+  width: 10%;
+  padding: 20px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.allquestionscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.allquestionsleft {
+    display: flex;
+    margin-right: 30px;
+}
+
+.alloptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: small;
+}
+
+
